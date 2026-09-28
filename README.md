@@ -5,7 +5,7 @@ Usage:
     ```python fontbuilder.py input.png -c "ABC" output.ttf``` <br>
     ```
     python fontbuilder.py input.png -c "ABC" output.ttf --name "MyFont"
-    ``` <br>
+    ``` <br><br>
 The PNG should have dark glyphs on a white background, arranged left to right
 (and optionally in multiple rows) in the same order as the characters argument.
 
@@ -20,10 +20,9 @@ Converts a font file from one format to another based on file extension
 (.ttf, .otf, .woff, .woff2).
 
 Usage:  
-    ```
-    python fontconverter.py input.ttf output.woff2  
-    python fontconverter.py input.woff2 output.ttf  
-    ```
+    ```python fontconverter.py input.ttf output.woff2```<br>  
+    ```python fontconverter.py input.woff2 output.ttf```<br>  
+
 
     
 Whatever you do, definitely do NOT use this tool to rip Adobe paywalled fonts.
