@@ -1,10 +1,10 @@
 # fontbuilder
 PNG image to font file converter
 
-Usage:
+Usage:  
     ```
-    python fontbuilder.py input.png -c "ABC" output.ttf}
-    python fontbuilder.py input.png -c "ABC" output.ttf --name "MyFont"
+    python fontbuilder.py input.png -c "ABC" output.ttf}  
+    python fontbuilder.py input.png -c "ABC" output.ttf --name "MyFont"  
     ```
 The PNG should have dark glyphs on a white background, arranged left to right
 (and optionally in multiple rows) in the same order as the characters argument.
@@ -19,10 +19,10 @@ Font format converter
 Converts a font file from one format to another based on file extension
 (.ttf, .otf, .woff, .woff2).
 
-Usage:
+Usage:  
     ```
-    python fontconverter.py input.ttf output.woff2
-    python fontconverter.py input.woff2 output.ttf
+    python fontconverter.py input.ttf output.woff2  
+    python fontconverter.py input.woff2 output.ttf  
     ```
 
     
