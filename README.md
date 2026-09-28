@@ -4,9 +4,7 @@ PNG image to font file converter
 Usage:  
     ```python fontbuilder.py input.png -c "ABC" output.ttf```
 
-
     ```python fontbuilder.py input.png -c "ABC" output.ttf --name "MyFont"```
-
     
 The PNG should have dark glyphs on a white background, arranged left to right
 (and optionally in multiple rows) in the same order as the characters argument.
