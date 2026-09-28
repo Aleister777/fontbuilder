@@ -20,7 +20,7 @@ Converts a font file from one format to another based on file extension
 (.ttf, .otf, .woff, .woff2).
 
 Usage:  
-    ```python fontconverter.py input.ttf output.woff2```<br>  
+    ```python fontconverter.py input.ttf output.woff2```<br>
     ```python fontconverter.py input.woff2 output.ttf```<br>  
 
 
