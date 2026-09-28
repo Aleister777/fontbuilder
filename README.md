@@ -9,7 +9,7 @@ Usage:
 The PNG should have dark glyphs on a white background, arranged left to right
 (and optionally in multiple rows) in the same order as the characters argument.
 
-when building the png file with all the glyphs, sometimes you may find your computer
+When building the png file with all the glyphs, sometimes you may find your computer
 is out of ram when exporting and it shows up blank. lower the dpi
 (for example 120dpi - 60dpi)
 
